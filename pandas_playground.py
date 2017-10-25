@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy
 
 data = {'item': ['cake', 'pie', 'cupcake', 'croissant', 'shortbread cookie'],
         'flavor': ['chocolate', 'crack', 'brooklyn blackout', 'pistachio', 'mint chocolate chip'],
@@ -7,3 +8,6 @@ data = {'item': ['cake', 'pie', 'cupcake', 'croissant', 'shortbread cookie'],
 
 bakery = pd.DataFrame(data)
 print(bakery)
+
+d = {'one': Series()}
+
