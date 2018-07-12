@@ -3,6 +3,7 @@ message = [ 'c', 'a', 'k', 'e', ' ',
             's', 't', 'e', 'a', 'l' ]
 
 def reverse_words(msg):
+    msg.insert(0, ' ')
     size = len(msg)
     space = [size]
 
